@@ -10,7 +10,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between p-6 backdrop-blur bg-black/60">
         <div className="flex items-center">
-          <Image src="/Users/u1520797/Library/CloudStorage/Box-Box/Desktop/Portfolio/my-portfolio/public/logo-ananya.png" alt="Ananya Ananth Logo" width={150} height={150} />
+          <Image src="/Users/u1520797/Library/CloudStorage/Box-Box/Desktop/Portfolio/my-portfolio/public/ananya.jpeg" alt="Ananya Ananth Logo" width={150} height={150} />
         </div>
 
         <div className="flex gap-6 text-sm px-6 py-2 rounded-full border border-white/10 bg-white/10 backdrop-blur">
