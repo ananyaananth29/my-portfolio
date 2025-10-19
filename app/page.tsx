@@ -351,7 +351,7 @@ In the long run, I aspire to combine my expertise in machine learning, DevOps, a
       </section>
       {/* Micro Projects Section */}
       <section id="micro-projects" className="min-h-screen px-4 pt-32 pb-20 bg-black text-center">
-        <h2 className="text-4xl font-bold text-purple-400 mb-12">Micro Projects</h2>
+        <h2 className="text-4xl font-bold text-purple-400 mb-12">Projects</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {[
             { title: 'AI Task Manager', desc: 'AI-powered platform for smart task organization and productivity.', img: '/Users/u1520797/Library/CloudStorage/Box-Box/Desktop/Portfolio/my-portfolio/public/project.png' },
