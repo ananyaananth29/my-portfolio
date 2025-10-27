@@ -349,7 +349,7 @@ const handleCopy = (text: string, id: string) => {
                 Software Engineer | IBM
               </h4>
               <p className="mt-3">
-                Beyond code, I led with initiative — turning repetitive reporting and maintenance work into automated systems that saved my team hours weekly. My passion for building smarter tools turned into a culture of efficiency, inspiring teammates to embrace AI-driven development and continuous improvement. I learned to balance creativity with reliability, ensuring every automation not only worked but created measurable business impact across IBM’s enterprise platforms.
+                Beyond code, I led with initiative, turning repetitive reporting and maintenance work into automated systems that saved my team hours weekly. My passion for building smarter tools turned into a culture of efficiency, inspiring teammates to embrace AI-driven development and continuous improvement. I learned to balance creativity with reliability, ensuring every automation not only worked but created measurable business impact across IBM’s enterprise platforms.
               </p>
 
             </div>
@@ -360,7 +360,7 @@ const handleCopy = (text: string, id: string) => {
                 Software Engineer Intern | IBM
               </h4>
               <p className="mt-3">
-                As an intern, I didn’t just learn — I built solutions that stuck. By developing an AI-powered SRE assistant and integrating it into Slack, I made problem-solving faster and collaboration more fun. I loved seeing how my automation cut the team’s manual work in half, turning me from “the intern who asked questions” into “the intern who automated answers.”
+                As an intern, I didn’t just learn, I built solutions that stuck. By developing an AI-powered SRE assistant and integrating it into Slack, I made problem-solving faster and collaboration more fun. I loved seeing how my automation cut the team’s manual work in half, turning me from “the intern who asked questions” into “the intern who automated answers.”
               </p>
 
             </div>
@@ -371,7 +371,7 @@ const handleCopy = (text: string, id: string) => {
                 Research Assistant | University of Utah Health, Moran Eye Center
               </h4>
               <p className="mt-3">
-                At the Moran Eye Center, I combine curiosity with code. Leading the development of deep learning models for early diabetic retinopathy detection, I bridge healthcare and AI to make diagnosis faster and more accurate. Every experiment feels like a step toward saving sight — and that keeps me pushing to innovate beyond the lab, where research meets real-world impact.
+                At the Moran Eye Center, I combine curiosity with code. Leading the development of deep learning models for early diabetic retinopathy detection, I bridge healthcare and AI to make diagnosis faster and more accurate. Every experiment feels like a step toward saving sight, and that keeps me pushing to innovate beyond the lab, where research meets real-world impact.
               </p>
 
             </div>
@@ -462,7 +462,7 @@ const handleCopy = (text: string, id: string) => {
               ))}
             </div>
             <p className="text-sm text-gray-300 mb-4">
-              Travel Orb turns complex tourism data into a visual journey across the world. Using interactive maps, rotating globes, and animated charts, it lets users uncover how people move, spend, and impact the planet—bridging design, data, and storytelling in a single immersive experience.</p>
+              Travel Orb turns complex tourism data into a visual journey across the world. Using interactive maps, rotating globes, and animated charts, it lets users uncover how people move, spend, and impact the planet, bridging design, data, and storytelling in a single immersive experience.</p>
             <div className="flex gap-3">
               <a href="https://www.youtube.com/watch?v=KMuy8hWwoe0" className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-full text-sm text-white">Live Demo</a>
               <a href="https://github.com/ananyaananth29/travel-orb" className="bg-gray-800 px-4 py-2 rounded-full text-sm text-white">GitHub</a>
@@ -498,7 +498,7 @@ const handleCopy = (text: string, id: string) => {
               ))}
             </div>
             <p className="text-sm text-gray-300 mb-4">
-              This tool is an AI-powered analytics assistant built to turn everyday language into powerful business insights. Using IBM WatsonX and advanced LLMs (Granite-20B, Mixtral-8x7B), it transforms natural language queries into precise SQL commands, instantly generating interactive visual reports from DB2 or CSV data. Designed with FastAPI and ReactJS, the platform reimagines how organizations make data-driven decisions—cutting report generation time by 70% and boosting decision-making speed by 60%.
+              This tool is an AI-powered analytics assistant built to turn everyday language into powerful business insights. Using IBM WatsonX and advanced LLMs (Granite-20B, Mixtral-8x7B), it transforms natural language queries into precise SQL commands, instantly generating interactive visual reports from DB2 or CSV data. Designed with FastAPI and ReactJS, the platform reimagines how organizations make data-driven decisions, cutting report generation time by 70% and boosting decision-making speed by 60%.
             </p>
             {/* <div className="flex gap-3">
             <a href="https://www.youtube.com/embed/FN8Gph6n9ms?autoplay=1&mute=1&controls=0&loop=1&playlist=FN8Gph6n9ms" className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-full text-sm text-white">Live Demo</a>
@@ -545,7 +545,7 @@ const handleCopy = (text: string, id: string) => {
               Turning ideas into intelligent, automated systems, I build technology that works hard, so teams don’t have to.
             </p>
             <p className="mb-6">
-              Reach out if you’re hiring — I’ll make sure to add <span className="text-purple-300">value, energy, and innovation</span> to your team from day one.
+              Reach out if you’re hiring, I’ll make sure to add <span className="text-purple-300">value, energy, and innovation</span> to your team from day one.
             </p>
 
             {/* ✅ Use your new imported component */}
