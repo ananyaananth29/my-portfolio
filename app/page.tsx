@@ -24,7 +24,7 @@ export default function Home() {
     });
   }, []);
 
-  const handleCopy = (text, id) => {
+const handleCopy = (text: string, id: string) => {
     navigator.clipboard.writeText(text);
     setCopied(id);
     setTimeout(() => setCopied(""), 1500);
