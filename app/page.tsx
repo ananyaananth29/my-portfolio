@@ -36,7 +36,7 @@ const handleCopy = (text: string, id: string) => {
   return (
     <div className="relative bg-black text-white font-sans scroll-smooth overflow-x-hidden">
       {/* Navbar */}
-      <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between p-4 sm:p-6 backdrop-blur bg-black/30">
+<nav className="fixed top-0 left-0 w-full z-[100] flex items-center justify-between px-4 sm:px-6 py-3 bg-black/10 backdrop-blur-md">
         {/* Profile Image */}
         <div className="flex items-center flex-shrink-0">
           <Image
