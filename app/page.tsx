@@ -66,7 +66,7 @@ const handleCopy = (text: string, id: string) => {
           href="#contact"
           className="hidden sm:inline-block bg-gradient-to-r from-blue-500 to-pink-500 text-white rounded-full px-5 py-2 text-sm font-medium whitespace-nowrap"
         >
-          Contact
+          Contact Me
         </a>
 
         {/* Mobile Menu Button */}
@@ -128,7 +128,9 @@ const handleCopy = (text: string, id: string) => {
           Hi, I'm <span className="text-white">Ananya Ananth!</span>
         </h1>
         <h6 className="text-1xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent mt-4">
-          A Master’s in Computer Science student at the University of Utah (May 2026) seeking Software Engineer roles, I thrive on automating the boring stuff, crafting AI tools that empower teams, and making every system smarter and faster.        </h6>
+          A Master’s in Computer Science student at the University of Utah (Graduating May 2026) seeking Software Engineer New Grad roles </h6>
+          <h5 className="text-1xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-transparent mt-4">Seeking AI/ML, Full Stack, Frontend and Backend Engineer roles. </h5>
+          <span className="text-base text-white-600"> I thrive on automating the boring stuff, crafting AI tools that empower teams, and making every system smarter and faster.     </span>   
         <p className="text-base text-gray-300 mt-4">Currently on an F-1 visa | <span className="text-purple-300">eligible for CPT, OPT & STEM OPT</span></p>
         <p className="text-sm text-gray-500 mt-2 max-w-xl">
           Building reliable, intuitive, and future-ready software with a passion for innovation.
@@ -150,18 +152,18 @@ const handleCopy = (text: string, id: string) => {
         </div>
 
         <div className="flex gap-4 mt-8">
-          <button className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full text-white">My Work</button>
+          {/* <button className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full text-white">My Work</button> */}
           <a
             href="/ananya-ananth-resume.pdf"
             download
             className="border border-white/10 px-6 py-2 rounded-full text-white hover:bg-white/10 transition"
           >
-            Resume
+            Download Resume
           </a>
         </div>
 
         <div className="mt-16 animate-bounce">
-          <a href="#skills" className="text-blue-500 hover:text-blue-400 transition">
+          <a href="#about" className="text-blue-500 hover:text-blue-400 transition">
             <FiArrowDown size={32} />
           </a>
         </div>
