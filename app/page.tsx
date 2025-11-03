@@ -24,7 +24,7 @@ export default function Home() {
     });
   }, []);
 
-const handleCopy = (text: string, id: string) => {
+  const handleCopy = (text: string, id: string) => {
     navigator.clipboard.writeText(text);
     setCopied(id);
     setTimeout(() => setCopied(""), 1500);
@@ -36,20 +36,21 @@ const handleCopy = (text: string, id: string) => {
   return (
     <div className="relative bg-black text-white font-sans scroll-smooth overflow-x-hidden">
       {/* Navbar */}
-<nav className="fixed top-0 left-0 w-full z-[100] flex items-center justify-between px-4 sm:px-6 py-3 bg-black/10 backdrop-blur-md">
-        {/* Profile Image */}
-        <div className="flex items-center flex-shrink-0">
-          <Image
-            src="/ananya.jpeg"
-            alt="Ananya Ananth Logo"
-            width={64}
-            height={64}
-            className="rounded-full object-cover"
-          />
-        </div>
-        <div className="text-white font-semibold text-lg">
-          Ananya Ananth
-        </div>
+      <nav className="fixed top-0 left-0 w-full z-[100] flex items-center justify-between px-4 sm:px-6 py-3 bg-black/10 backdrop-blur-md">
+  {/* Left: Profile Image + Name (on medium+ screens) */}
+  <div className="flex items-center flex-shrink-0">
+    <Image
+      src="/ananya.jpeg"
+      alt="Ananya Ananth Logo"
+      width={64}
+      height={64}
+      className="rounded-full object-cover"
+    />
+    {/* Show name beside image only on medium+ screens */}
+    <div className="hidden sm:block text-white font-semibold text-lg ml-3">
+      Ananya Ananth
+    </div>
+  </div>
 
         <div className="sm:hidden text-white font-semibold text-lg">
           Ananya Ananth
@@ -131,8 +132,8 @@ const handleCopy = (text: string, id: string) => {
         </h1>
         <h6 className="text-1xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent mt-4">
           A Master’s in Computer Science student at the University of Utah (Graduating May 2026) seeking Software Engineer New Grad roles </h6>
-          <h5 className="text-1xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-transparent mt-4">Seeking AI/ML, Full Stack, Frontend and Backend Engineer roles. </h5>
-          <span className="text-base text-white-600"> I thrive on automating the boring stuff, crafting AI tools that empower teams, and making every system smarter and faster.     </span>   
+        <h5 className="text-1xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-transparent mt-4">Seeking AI/ML, Full Stack, Frontend and Backend Engineer roles. </h5>
+        <span className="text-base text-white-600"> I thrive on automating the boring stuff, crafting AI tools that empower teams, and making every system smarter and faster.     </span>
         <p className="text-base text-gray-300 mt-4">Currently on an F-1 visa | <span className="text-purple-300">eligible for CPT, OPT & STEM OPT</span></p>
         <p className="text-sm text-gray-500 mt-2 max-w-xl">
           Building reliable, intuitive, and future-ready software with a passion for innovation.
@@ -551,7 +552,7 @@ const handleCopy = (text: string, id: string) => {
             <p className="mb-6">
               If you’re hiring, I’ll make sure to add <span className="text-purple-300">value, energy, and innovation</span> to your team from day one.
             </p>
-            
+
 
             {/* ✅ Use your new imported component */}
             <ContactInfo />
