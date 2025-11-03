@@ -47,6 +47,9 @@ const handleCopy = (text: string, id: string) => {
             className="rounded-full object-cover"
           />
         </div>
+        <div className="text-white font-semibold text-lg">
+          Ananya Ananth
+        </div>
 
         <div className="sm:hidden text-white font-semibold text-lg">
           Ananya Ananth
@@ -90,7 +93,6 @@ const handleCopy = (text: string, id: string) => {
             </a>
             {/* <a
               href="#skills"
-              className="hover:text-purple-400 transition"
               onClick={() => setMenuOpen(false)}
             >
               Skills
@@ -471,23 +473,6 @@ const handleCopy = (text: string, id: string) => {
             </div>
           </div>
 
-          {/* Project 2 */}
-          <div className="bg-white/5 p-4 rounded-xl text-left hover:shadow-lg transition-shadow duration-300">
-            <Image src="/IBMWatsonX.jpg" alt="Employee Management" width={600} height={300} className="rounded-md mb-4" />
-            <h3 className="font-bold text-white text-lg mb-2">DBAoC SRE Assistant – AI-Powered Reliability Automation using IBM WatsonX</h3>
-            <div className="flex flex-wrap gap-2 text-xs text-white/80 mb-3">
-              {["IBM WatsonX", "Watson Assistant", "Milvus DB", "Python", "Slack API", "IBM Cloud", "RAG architecture", "GitHub knowledge base"].map((tag, idx) => (
-                <span key={idx} className="bg-white/10 px-2 py-1 rounded">{tag}</span>
-              ))}
-            </div>
-            <p className="text-sm text-gray-300 mb-4">
-              Built an AI-powered assistant using LLMs, RAG, and Milvus DB to automate troubleshooting for Site Reliability Engineers. Integrated with Slack and IBM WatsonX, reducing manual incident resolution time by ~50% and enhancing operational efficiency.            </p>
-            {/* <div className="flex gap-3">
-              <a href="#" className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-full text-sm text-white">Live Demo</a>
-              <a href="https://github.com/ananyaananth29?tab=repositories" className="bg-gray-800 px-4 py-2 rounded-full text-sm text-white">GitHub</a>
-            </div> */}
-          </div>
-
           {/* Project 3 */}
           <div className="bg-white/5 p-4 rounded-xl text-left hover:shadow-lg transition-shadow duration-300">
 
@@ -506,6 +491,22 @@ const handleCopy = (text: string, id: string) => {
             <a href="https://www.youtube.com/embed/FN8Gph6n9ms?autoplay=1&mute=1&controls=0&loop=1&playlist=FN8Gph6n9ms" className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-full text-sm text-white">Live Demo</a>
             <a href="https://github.com/ananyaananth29/UNYSIS" className="bg-gray-800 px-4 py-2 rounded-full text-sm text-white">GitHub</a>
           </div> */}
+          </div>
+          {/* Project 2 */}
+          <div className="bg-white/5 p-4 rounded-xl text-left hover:shadow-lg transition-shadow duration-300">
+            <Image src="/IBMWatsonX.jpg" alt="Employee Management" width={600} height={300} className="rounded-md mb-4" />
+            <h3 className="font-bold text-white text-lg mb-2">DBAoC SRE Assistant – AI-Powered Reliability Automation using IBM WatsonX</h3>
+            <div className="flex flex-wrap gap-2 text-xs text-white/80 mb-3">
+              {["IBM WatsonX", "Watson Assistant", "Milvus DB", "Python", "Slack API", "IBM Cloud", "RAG architecture", "GitHub knowledge base"].map((tag, idx) => (
+                <span key={idx} className="bg-white/10 px-2 py-1 rounded">{tag}</span>
+              ))}
+            </div>
+            <p className="text-sm text-gray-300 mb-4">
+              Built an AI-powered assistant using LLMs, RAG, and Milvus DB to automate troubleshooting for Site Reliability Engineers. Integrated with Slack and IBM WatsonX, reducing manual incident resolution time by ~50% and enhancing operational efficiency.            </p>
+            {/* <div className="flex gap-3">
+              <a href="#" className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-full text-sm text-white">Live Demo</a>
+              <a href="https://github.com/ananyaananth29?tab=repositories" className="bg-gray-800 px-4 py-2 rounded-full text-sm text-white">GitHub</a>
+            </div> */}
           </div>
 
           {/* Project 4 */}
