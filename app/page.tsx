@@ -86,7 +86,7 @@ const handleCopy = (text: string, id: string) => {
               className="hover:text-purple-400 transition"
               onClick={() => setMenuOpen(false)}
             >
-              Hello World!
+              Home
             </a>
             {/* <a
               href="#skills"
