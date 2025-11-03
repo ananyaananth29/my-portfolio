@@ -38,20 +38,20 @@ export default function Home() {
     <div className="relative bg-black text-white font-sans scroll-smooth overflow-x-hidden">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full z-[100] flex items-center justify-between px-4 sm:px-6 py-3 bg-black/10 backdrop-blur-md">
-  {/* Left: Profile Image + Name (on medium+ screens) */}
-  <div className="flex items-center flex-shrink-0">
-    <Image
-      src="/ananya.jpeg"
-      alt="Ananya Ananth Logo"
-      width={64}
-      height={64}
-      className="rounded-full object-cover"
-    />
-    {/* Show name beside image only on medium+ screens */}
-    <div className="hidden sm:block text-white font-semibold text-lg ml-3">
-      Ananya Ananth
-    </div>
-  </div>
+        {/* Left: Profile Image + Name (on medium+ screens) */}
+        <div className="flex items-center flex-shrink-0">
+          <Image
+            src="/ananya.jpeg"
+            alt="Ananya Ananth Logo"
+            width={64}
+            height={64}
+            className="rounded-full object-cover"
+          />
+          {/* Show name beside image only on medium+ screens */}
+          <div className="hidden sm:block text-white font-semibold text-lg ml-3">
+            Ananya Ananth
+          </div>
+        </div>
 
         <div className="sm:hidden text-white font-semibold text-lg">
           Ananya Ananth
@@ -331,7 +331,7 @@ export default function Home() {
                   </li>
                 </a>
 
-                
+
               </ul>
             </div>
           </div>
@@ -529,131 +529,131 @@ export default function Home() {
       </section > */}
 
       {/* Projects Section */}
-<section id="projects" className="min-h-screen px-4 pt-32 pb-20 bg-black text-center">
-  <h2 className="text-4xl font-bold text-purple-400 mb-4">Projects</h2>
-  <p className="text-gray-400 max-w-3xl mx-auto mb-16">
-    Here is a collection of my Academic and Company Projects.
-  </p>
+      <section id="projects" className="min-h-screen px-4 pt-32 pb-20 bg-black text-center">
+        <h2 className="text-4xl font-bold text-purple-400 mb-4">Projects</h2>
+        <p className="text-gray-400 max-w-3xl mx-auto mb-16">
+          Here is a collection of my Academic and Company Projects.
+        </p>
 
-  <div className="grid md:grid-cols-2 gap-8 max-w-7xl mx-auto">
-    {[
-      {
-        title: "Travel Orb – Interactive Data Visualization Platform",
-        github: "https://github.com/ananyaananth29/travel-orb",
-        video: "https://www.youtube.com/embed/KMuy8hWwoe0?autoplay=1&mute=1&loop=1&playlist=KMuy8hWwoe0&controls=0",
-        demo: "https://www.youtube.com/watch?v=KMuy8hWwoe0",
-        tags: [
-          "React.js",
-          "D3.js",
-          "Material UI",
-          "Emotion",
-          "TopoJSON/GeoJSON",
-          "rc-slider",
-          "React Router",
-          "Python (Pandas, NumPy)",
-          "Jest",
-          "Web Vitals",
-          "GitHub Pages",
-        ],
-        desc: `Travel Orb turns complex tourism data into a visual journey across the world. Using interactive maps, rotating globes, and animated charts, it lets users uncover how people move, spend, and impact the planetm, bridging design, data, and storytelling in a single immersive experience.`,
-      },
-      {
-        title: "AI-Powered Data Insights Platform",
-        github: "https://github.com/ananyaananth29/ai-data-insights",
-        image: "/IBMWatsonX.jpg",
-        desc: `An AI-powered analytics assistant built to turn natural language queries into SQL, instantly generating interactive reports from DB2 or CSV data. Built with FastAPI, ReactJS, and IBM WatsonX, reducing report generation time by 70%.`,
-        tags: [
-          "Python",
-          "FastAPI",
-          "ReactJS",
-          "IBM WatsonX",
-          "PandasAI",
-          "LangChain",
-          "DB2",
-          "Axios",
-          "Chart.js",
-        ],
-      },
-      {
-        title: "DBAoC SRE Assistant – AI-Powered Reliability Automation",
-        github: "https://github.com/ananyaananth29/sre-assistant",
-        image: "/IBMWatsonX.jpg",
-        desc: `An AI-powered assistant using LLMs, RAG, and Milvus DB to automate troubleshooting for Site Reliability Engineers. Integrated with Slack and IBM WatsonX, reducing manual resolution time by 50%.`,
-        tags: [
-          "Python",
-          "IBM WatsonX",
-          "Watson Assistant",
-          "Milvus DB",
-          "Python",
-          "Slack API",
-          "IBM Cloud",
-          "RAG architecture",
-        ],
-      },
-      {
-        title: "AB Suite Canvas — No-Code Tool for Agile Website Development",
-        github: "https://github.com/ananyaananth29/UNYSIS",
-        video: "https://www.youtube.com/embed/FN8Gph6n9ms?autoplay=1&mute=1&controls=0&loop=1&playlist=FN8Gph6n9ms",
-        demo: "https://www.youtube.com/watch?v=FN8Gph6n9ms",
-        desc: `A no-code platform using Node.js, Express, and GrapesJS that allows non-coders to design and deploy websites 70% faster with an intuitive drag-and-drop interface.`,
-        tags: [
-          "Node.js",
-          "Express.js",
-          "MongoDB",
-          "GrapesJS",
-          "React.js",
-          "Bootstrap 5",
-          "JavaScript",
-        ],
-      },
-    ].map((proj, i) => (
-      <div
-        key={i}
-        className="bg-white/5 p-4 rounded-xl text-left hover:shadow-lg transition-shadow duration-300"
-      >
-        {/* Video or Image */}
-        {proj.video ? (
-          <div className="relative w-full aspect-video rounded-md mb-4 overflow-hidden">
-            <iframe
-              src={proj.video}
-              title={proj.title}
-              className="absolute top-0 left-0 w-full h-full rounded-md"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-        ) : proj.image ? (
-          <img
-            src={proj.image}
-            alt={proj.title}
-            className="w-full h-auto rounded-md mb-4"
-          />
-        ) : null}
+        <div className="grid md:grid-cols-2 gap-8 max-w-7xl mx-auto">
+          {[
+            {
+              title: "Travel Orb – Interactive Data Visualization Platform",
+              github: "https://github.com/ananyaananth29/travel-orb",
+              video: "https://www.youtube.com/embed/KMuy8hWwoe0?autoplay=1&mute=1&loop=1&playlist=KMuy8hWwoe0&controls=0",
+              demo: "https://www.youtube.com/watch?v=KMuy8hWwoe0",
+              tags: [
+                "React.js",
+                "D3.js",
+                "Material UI",
+                "Emotion",
+                "TopoJSON/GeoJSON",
+                "rc-slider",
+                "React Router",
+                "Python (Pandas, NumPy)",
+                "Jest",
+                "Web Vitals",
+                "GitHub Pages",
+              ],
+              desc: `Travel Orb turns complex tourism data into a visual journey across the world. Using interactive maps, rotating globes, and animated charts, it lets users uncover how people move, spend, and impact the planetm, bridging design, data, and storytelling in a single immersive experience.`,
+            },
+            {
+              title: "AI-Powered Data Insights Platform",
+              github: "https://github.com/ananyaananth29/ai-data-insights",
+              image: "/IBMWatsonX.jpg",
+              desc: `An AI-powered analytics assistant built to turn natural language queries into SQL, instantly generating interactive reports from DB2 or CSV data. Built with FastAPI, ReactJS, and IBM WatsonX, reducing report generation time by 70%.`,
+              tags: [
+                "Python",
+                "FastAPI",
+                "ReactJS",
+                "IBM WatsonX",
+                "PandasAI",
+                "LangChain",
+                "DB2",
+                "Axios",
+                "Chart.js",
+              ],
+            },
+            {
+              title: "DBAoC SRE Assistant – AI-Powered Reliability Automation",
+              github: "https://github.com/ananyaananth29/sre-assistant",
+              image: "/IBMWatsonX.jpg",
+              desc: `An AI-powered assistant using LLMs, RAG, and Milvus DB to automate troubleshooting for Site Reliability Engineers. Integrated with Slack and IBM WatsonX, reducing manual resolution time by 50%.`,
+              tags: [
+                "Python",
+                "IBM WatsonX",
+                "Watson Assistant",
+                "Milvus DB",
+                "Python",
+                "Slack API",
+                "IBM Cloud",
+                "RAG architecture",
+              ],
+            },
+            {
+              title: "AB Suite Canvas — No-Code Tool for Agile Website Development",
+              github: "https://github.com/ananyaananth29/UNYSIS",
+              video: "https://www.youtube.com/embed/FN8Gph6n9ms?autoplay=1&mute=1&controls=0&loop=1&playlist=FN8Gph6n9ms",
+              demo: "https://www.youtube.com/watch?v=FN8Gph6n9ms",
+              desc: `A no-code platform using Node.js, Express, and GrapesJS that allows non-coders to design and deploy websites 70% faster with an intuitive drag-and-drop interface.`,
+              tags: [
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "GrapesJS",
+                "React.js",
+                "Bootstrap 5",
+                "JavaScript",
+              ],
+            },
+          ].map((proj, i) => (
+            <div
+              key={i}
+              className="bg-white/5 p-4 rounded-xl text-left hover:shadow-lg transition-shadow duration-300"
+            >
+              {/* Video or Image */}
+              {proj.video ? (
+                <div className="relative w-full aspect-video rounded-md mb-4 overflow-hidden">
+                  <iframe
+                    src={proj.video}
+                    title={proj.title}
+                    className="absolute top-0 left-0 w-full h-full rounded-md"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              ) : proj.image ? (
+                <img
+                  src={proj.image}
+                  alt={proj.title}
+                  className="w-full h-auto rounded-md mb-4"
+                />
+              ) : null}
 
-        {/* 🔗 Clickable title */}
-        <a
-          href={proj.github}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-bold text-white text-lg mb-2 inline-block hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 transition duration-200"
-        >
-          {proj.title}
-        </a>
+              {/* 🔗 Clickable title */}
+              <a
+                href={proj.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-white text-lg mb-2 inline-block hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 transition duration-200"
+              >
+                {proj.title}
+              </a>
 
-        {/* Tags */}
-        <div className="flex flex-wrap gap-2 text-xs text-white/80 mb-3">
-          {proj.tags.map((tag, idx) => (
-            <span key={idx} className="bg-white/10 px-2 py-1 rounded">
-              {tag}
-            </span>
-          ))}
-        </div>
+              {/* Tags */}
+              <div className="flex flex-wrap gap-2 text-xs text-white/80 mb-3">
+                {proj.tags.map((tag, idx) => (
+                  <span key={idx} className="bg-white/10 px-2 py-1 rounded">
+                    {tag}
+                  </span>
+                ))}
+              </div>
 
-        {/* Description */}
-        <p className="text-sm text-gray-300 mb-4">{proj.desc}</p>
+              {/* Description */}
+              <p className="text-sm text-gray-300 mb-4">{proj.desc}</p>
 
-        {/* Demo button if available */}
-        {/* {proj.demo && (
+              {/* Demo button if available */}
+              {/* {proj.demo && (
           <a
             href={proj.demo}
             target="_blank"
@@ -663,10 +663,10 @@ export default function Home() {
             Live Demo
           </a>
         )} */}
-      </div>
-    ))}
-  </div>
-</section>
+            </div>
+          ))}
+        </div>
+      </section>
 
       {/* Contact Section */}
       <section id="contact" className="min-h-screen px-4 pt-32 pb-20 bg-black text-center">
@@ -682,7 +682,16 @@ export default function Home() {
             <p className="mb-6">
               If you’re hiring, I’ll make sure to add <span className="text-purple-300">value, energy, and innovation</span> to your team from day one.
             </p>
-
+            <div className="flex gap-4 mb-8">
+              {/* <button className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full text-white">My Work</button> */}
+              <a
+                href="/ananya-ananth-resume.pdf"
+                download
+                className="border border-white/10 px-6 py-2 rounded-full text-white hover:bg-white/10 transition"
+              >
+                Download Resume
+              </a>
+            </div >
 
             {/* ✅ Use your new imported component */}
             <ContactInfo />
