@@ -88,13 +88,13 @@ const handleCopy = (text: string, id: string) => {
             >
               Hello World!
             </a>
-            <a
+            {/* <a
               href="#skills"
               className="hover:text-purple-400 transition"
               onClick={() => setMenuOpen(false)}
             >
               Skills
-            </a>
+            </a> */}
             <a
               href="#about"
               className="hover:text-purple-400 transition"
