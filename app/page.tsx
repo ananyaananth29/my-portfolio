@@ -55,7 +55,7 @@ const handleCopy = (text: string, id: string) => {
 
         {/* Navigation Links (visible on desktop) */}
         <div className="hidden sm:flex gap-4 md:gap-6 text-sm px-4 py-2 rounded-full border border-white/10 bg-white/10 backdrop-blur">
-          <a href="#hero" className="hover:text-purple-400 transition">Hello World!</a>
+          <a href="#hero" className="hover:text-purple-400 transition">Home</a>
           {/* <a href="#skills" className="hover:text-purple-400 transition">Skills</a> */}
           <a href="#about" className="hover:text-purple-400 transition">About Me</a>
           <a href="#projects" className="hover:text-purple-400 transition">Projects</a>
@@ -114,7 +114,7 @@ const handleCopy = (text: string, id: string) => {
               className="bg-gradient-to-r from-blue-500 to-pink-500 text-white rounded-full px-5 py-2 text-sm font-medium"
               onClick={() => setMenuOpen(false)}
             >
-              Contact
+              Contact Me
             </a>
           </div>
         )}
@@ -542,13 +542,15 @@ const handleCopy = (text: string, id: string) => {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-start">
           {/* Contact Info */}
           <div className="bg-white/5 p-6 rounded-xl text-left">
-            <h3 className="text-2xl font-semibold mb-4">Summary</h3>
-            <p className="mb-6">
+            {/* <h3 className="text-2xl font-semibold mb-4">Summary</h3> */}
+            {/* <p className="mb-6">
               Turning ideas into intelligent, automated systems, I build technology that works hard, so teams don’t have to.
-            </p>
+            </p> */}
+            <p>My inbox is always open. Whether you have a question or just want to say hi!</p>
             <p className="mb-6">
-              Reach out if you’re hiring, I’ll make sure to add <span className="text-purple-300">value, energy, and innovation</span> to your team from day one.
+              If you’re hiring, I’ll make sure to add <span className="text-purple-300">value, energy, and innovation</span> to your team from day one.
             </p>
+            
 
             {/* ✅ Use your new imported component */}
             <ContactInfo />
