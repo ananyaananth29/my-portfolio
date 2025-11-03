@@ -135,9 +135,9 @@ export default function Home() {
         <h5 className="text-1xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-transparent mt-2">Seeking AI/ML, Full Stack, Frontend and Backend Engineer roles. </h5>
         <span className="text-base text-white-600 mt-4"> I thrive on automating the boring stuff, crafting AI tools that empower teams, and making every system smarter and faster.     </span>
         <p className="text-base text-gray-300 mt-4">Currently on an F-1 visa | <span className="text-purple-300">eligible for CPT, OPT & STEM OPT</span></p>
-        <p className="text-sm text-gray-500 mt-2 max-w-xl">
+        {/* <p className="text-sm text-gray-500 mt-2 max-w-xl">
           Building reliable, intuitive, and future-ready software with a passion for innovation.
-        </p>
+        </p> */}
 
         <div className="flex gap-6 mt-8">
           <a href="https://github.com/ananyaananth29" className="hover:text-purple-400"><FaGithub size={24} /></a>
