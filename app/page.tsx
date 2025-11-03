@@ -133,11 +133,11 @@ export default function Home() {
         <h6 className="text-1xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent mt-4">
           A Master’s in Computer Science student at the University of Utah (Graduating May 2026) seeking Software Engineer New Grad roles </h6>
         <h5 className="text-1xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-transparent mt-2">Seeking AI/ML, Full Stack, Frontend and Backend Engineer roles. </h5>
-        <span className="text-base text-white-600 mt-4"> I thrive on automating the boring stuff, crafting AI tools that empower teams, and making every system smarter and faster.     </span>
+        <span className="text-base text-white-600"> I thrive on automating the boring stuff, crafting AI tools that empower teams, and making every system smarter and faster.     </span>
         <p className="text-base text-gray-300 mt-4">Currently on an F-1 visa | <span className="text-purple-300">eligible for CPT, OPT & STEM OPT</span></p>
-        {/* <p className="text-sm text-gray-500 mt-2 max-w-xl">
+        <p className="text-sm text-gray-500 mt-2 max-w-xl">
           Building reliable, intuitive, and future-ready software with a passion for innovation.
-        </p> */}
+        </p>
 
         <div className="flex gap-6 mt-8">
           <a href="https://github.com/ananyaananth29" className="hover:text-purple-400"><FaGithub size={24} /></a>
@@ -292,6 +292,22 @@ export default function Home() {
                     </div>
                   </li>
                 </a>
+                <a
+                  href="https://www.udemy.com/certificate/UC-92cb3522-edb1-4462-bc24-4c64a760bb18/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block hover:scale-[1.02] transition-transform duration-200"
+                >
+                  <li className="bg-white/10 p-3 rounded-lg flex items-center gap-4 hover:bg-white/20 transition">
+                    <div className="bg-white p-2 rounded">
+                      <Image src="/Ansible-Logo.jpg" alt="Ansible Certificate" width={32} height={32} />
+                    </div>
+                    <div>
+                      <p className="font-semibold">Ansible Hands-On Devops Certificate</p>
+                      <p className="text-sm text-gray-400">Focus: Ansible & DevOps</p>
+                    </div>
+                  </li>
+                </a>
 
                 <a
                   href="https://www.coursera.org/account/accomplishments/verify/JPPKYSG4P7YT?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
@@ -326,22 +342,7 @@ export default function Home() {
                   </li>
                 </a>
 
-                <a
-                  href="https://www.udemy.com/certificate/UC-92cb3522-edb1-4462-bc24-4c64a760bb18/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block hover:scale-[1.02] transition-transform duration-200"
-                >
-                  <li className="bg-white/10 p-3 rounded-lg flex items-center gap-4 hover:bg-white/20 transition">
-                    <div className="bg-white p-2 rounded">
-                      <Image src="/Ansible-Logo.jpg" alt="Ansible Certificate" width={32} height={32} />
-                    </div>
-                    <div>
-                      <p className="font-semibold">Ansible Hands-On Devops Certificate</p>
-                      <p className="text-sm text-gray-400">Focus: Ansible & DevOps</p>
-                    </div>
-                  </li>
-                </a>
+                
               </ul>
             </div>
           </div>
@@ -443,9 +444,8 @@ export default function Home() {
       <section id="projects" className="min-h-screen px-4 pt-32 pb-20 bg-black text-center">
         <h2 className="text-4xl font-bold text-purple-400 mb-4">Projects</h2>
         <p className="text-gray-400 max-w-3xl mx-auto mb-16">
-          Explore my collection of innovative projects that showcase my expertise in AI, web development, and software engineering.
-          Each project represents a unique solution to real-world challenges, combining cutting-edge technologies with practical applications.
-        </p>
+          Here is a collection of my Academic and Company Projects
+          </p>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-7xl mx-auto">
           {/* Project 1 */}
@@ -474,7 +474,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Project 3 */}
+          {/* Project 2 */}
           <div className="bg-white/5 p-4 rounded-xl text-left hover:shadow-lg transition-shadow duration-300">
 
             <Image src="/IBMWatsonX.jpg" alt="Employee Management" width={600} height={300} className="rounded-md mb-4" />
@@ -493,7 +493,7 @@ export default function Home() {
             <a href="https://github.com/ananyaananth29/UNYSIS" className="bg-gray-800 px-4 py-2 rounded-full text-sm text-white">GitHub</a>
           </div> */}
           </div>
-          {/* Project 2 */}
+          {/* Project 3 */}
           <div className="bg-white/5 p-4 rounded-xl text-left hover:shadow-lg transition-shadow duration-300">
             <Image src="/IBMWatsonX.jpg" alt="Employee Management" width={600} height={300} className="rounded-md mb-4" />
             <h3 className="font-bold text-white text-lg mb-2">DBAoC SRE Assistant – AI-Powered Reliability Automation using IBM WatsonX</h3>
