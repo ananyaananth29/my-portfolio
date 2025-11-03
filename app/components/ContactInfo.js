@@ -32,6 +32,12 @@ export default function ContactInfo() {
       label: "linkedin.com/in/ananyaananth/",
       href: "https://www.linkedin.com/in/ananyaananth/",
     },
+    {
+      id: "phone",
+      icon: <span className="text-green-400">📞</span>,
+      label: "+1 (801) 662-8290",
+      href: "tel:+18016628290",
+    }
   ];
 
   return (
